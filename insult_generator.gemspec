@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "insult_generator"
-  s.version     = '0.0.3.0'
+  s.version     = '0.0.1'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Arvind Kunday"]
   s.email       = ["hi@kunday.com"]
