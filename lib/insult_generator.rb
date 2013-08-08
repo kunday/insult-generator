@@ -10,4 +10,5 @@ class InsultGenerator
   end
 end
 
-print InsultGenerator.random_insult
+#Throw an insult when required.
+p InsultGenerator.random_insult
