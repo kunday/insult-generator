@@ -14,5 +14,6 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "Insult Generator"
 
   s.files         = `git ls-files lib`.split("\n")
+  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 end
