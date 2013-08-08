@@ -9,11 +9,12 @@ Gem::Specification.new do |s|
   s.email       = ["hi@kunday.com"]
   s.homepage    = "https://github.com/kunday/insult-generator"
   s.summary     = %q{Generate Shakesperean insults!}
-  s.description = %q{Generate Shakesperean insults!}
+  s.description = %q{Thou surly flap-mouthed measle build!}
 
   s.rubyforge_project = "Insult Generator"
 
   s.files         = `git ls-files lib`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.license = "MIT"
 end
